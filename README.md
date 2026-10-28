@@ -1,5 +1,8 @@
 # Going — Live Auction Platform
 
+**Live demo:** [https://going-live-auctions.onrender.com](https://going-live-auctions.onrender.com)
+
+
 A separate, self-contained PS3 mini-hackathon project. English ascending auctions with live public bid history, authenticated sellers/bidders, and a responsive browser UI. It uses SQLite automatically for zero-configuration local development and MongoDB Atlas when `MONGODB_URI` is configured for durable free hosting.
 
 ## Run
