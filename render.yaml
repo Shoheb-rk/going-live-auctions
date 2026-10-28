@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: going-live-auctions
+    runtime: docker
+    plan: free
+    healthCheckPath: /api/state
+    envVars:
+      - key: MONGODB_URI
+        sync: false
+      - key: MONGODB_DATABASE
+        value: going
+      - key: COOKIE_SECURE
+        value: "1"
+      - key: PUBLIC_ORIGIN
+        sync: false
